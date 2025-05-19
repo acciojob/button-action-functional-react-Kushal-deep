@@ -13,11 +13,13 @@ function App() {
     <div id="main">
     
 
-      <button onClick={change}>click me</button>
+      
 
       {display &&(
       <p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>)
     }
+
+    <button onClick={change}>click me</button>
 
     </div>
   );
